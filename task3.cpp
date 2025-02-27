@@ -15,10 +15,12 @@ void task3()
 		cout << "Не вдалося відкрити файл \"task3Source.txt\"\n";
 		return;
 	}
+
 	if (!fWrite) {
 		cout << "Не вдалося відкрити файл \"task3Result.txt\"\n";
 		return;
 	}
+
 	while (getline(fRead, temp)) {
 		if (temp != "") {
 			last_line = temp;

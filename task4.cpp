@@ -21,7 +21,7 @@ void task4()
 			longestLine = line;
 		}
 	}
-	cout << "Найдовший рядок: " << longestLine << ". Його довжина " << maxLength << endl;
+	cout << "Найдовший рядок: " << longestLine << ". Його довжина " << maxLength << " символів\n";
 	file.close();
 	cout << "Робота з файлом завершена\n";
 	welcoming();
